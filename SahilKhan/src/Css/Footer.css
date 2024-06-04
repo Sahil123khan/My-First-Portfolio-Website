@@ -1,0 +1,105 @@
+.footer-Div{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(48, 45, 45);
+}
+.Address-Email-Div{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Icons-Main-Div{
+    width: 100%;
+    background-color: black;
+    height: 130px;
+    z-index: 2px
+    ;
+}
+.Address-Email-2{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Address-Email-2 #Email-icon{
+  font-size: 80px;
+  color: white;
+  
+}
+.Address-Email-2 h4{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+.Address-Email-2 ul {
+    list-style: none;
+    font-size: 20px;
+    color: aqua;
+    letter-spacing: 2px; 
+}
+.Address-Email-2 ul li:hover {
+  color: white;
+  transition: 0.5s;
+}
+.Address-Email-2 ul li a:hover {
+    color:white;
+    transition: 0.5s;
+
+
+  }
+  .Address-Email-2 ul li a {
+    color:aqua;
+  }
+  /* address section end*/
+
+  /* Up arrow section start*/
+  .up-Icon-div{
+    position: relative;
+    bottom: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     }
+#up-Icon{
+font-size: 40px;
+color: white;
+cursor: pointer;
+}
+#up-Icon:hover{
+    color: aqua;
+    }
+
+.footer-icon{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.footer-icon .react-icons{
+   font-size: 30px;
+   color: aqua;
+   margin: 0px 20px 0px 20px;
+}
+
+.footer-icon .react-icons:hover{
+    color: white;
+ }
+ .footer-icon .imgicons{
+    width: 29px;
+   margin: 0px 20px 0px 20px;
+   filter: brightness(12);
+ }
+.footer-icon .imgicons:hover{
+   filter: brightness(123);
+ }
+ .Icons-Main-Div p {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 16px;
+ }

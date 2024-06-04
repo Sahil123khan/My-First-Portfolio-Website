@@ -1,0 +1,96 @@
+.ResumeMain{
+    width: 100%;
+    height: 100vh;
+    background-color:lightgray;
+  
+}
+.ResumeDataDiv{
+    width: 100%;
+    height: 90%;
+  
+}
+.HeadingDiv-Main{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.HeadindDiv-1{
+    width: 20%;
+    height: 149px;
+    padding-top: 30px; 
+}
+.HeadindDiv-2{
+    width: 70%;
+    height: 90%;
+    padding-top: 29px;
+    
+}
+.HeadindDiv-1 h3{
+    font: 18px / 24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid aqua;
+    width: 115px;
+    margin-left: 35%;
+    
+}
+.HeadindDiv-2 h4{
+  font-size: 30px;
+  font-weight: bold;
+    
+}
+.HeadindDiv-2 p{
+    font-size: 20px;
+    margin-top: 20px;
+    
+}  
+.HeadindDiv-2 hr{
+    width: 70%;
+    border: solid gray;
+    border-width: 1px;
+    margin-top: 30px;
+}
+
+.HeadindDiv-1 .certi-h3{
+    font: 18px / 24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid aqua;
+    width: 150px;
+    margin-left: 35%; 
+}
+
+.HeadindDiv-2 .html-p{
+    font-size: 30px;
+    font-weight: bold;  
+}   
+.Skill-Div{
+    width: 100%;
+    margin-top: 20px;
+    min-height: auto;
+    display: inline-flex;
+
+}
+.HeadindDiv-1 #Skills{
+   width: 70px;
+   text-align: center;
+}
+.Exprience{
+  width: 70%;
+}
+
+.H5-Div{
+    width: 60%;
+    height: auto;
+    columns: 2;
+  
+  
+}
+.H5-Div h5{
+  font-size: 25px;
+  text-align: center;
+ line-height: 40px;
+ 
+}
+

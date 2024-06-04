@@ -1,0 +1,270 @@
+.maindiv {
+    background: #0F131D;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 20px white;
+}
+
+.MainSectionDiv {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.imgradiusdiv {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.MainSectionDiv img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 150px;
+    background-color: aqua;
+
+}
+
+.rightIcon {
+    font-size: 3em;
+    color: white;
+
+}
+
+.ImgIconDiv {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.MyInfo {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+}
+
+#about {
+    margin-top: 90px;
+    font-size: 33px;
+    color: white;
+
+}
+
+.P-Div {
+    width: 80%;
+    height: 70vh;
+    margin-top: 57px;
+}
+
+.P-Div #P_info {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-style: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+    width: 700px;
+    padding: 20px;
+    color: white;
+
+
+}
+
+.Downloadbtn {
+    width: 210px;
+    height: 60px;
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: aqua;
+
+}
+
+.Downloadbtn i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.Downloadbtn a {
+    font: 16px / 30px 'opensans-bold', sans-serif;
+    background: #11ABB0;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    height: auto;
+
+}
+
+@media screen and (max-width:1075px) {
+
+    .ImgIconDiv {
+        width: 22%;
+    }
+
+    .imgradiusdiv {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .MainSectionDiv img {
+        width: 100px;
+        height: 100px;
+      background-color: aqua;
+
+
+    }
+
+    .rightIcon {
+        font-size: 2em;
+    
+    }
+    #about {
+        margin-top: 80px;
+        font-size: 1.5em;
+    
+    }
+    .P-Div #P_info {
+        font-size: 1.5rem;
+        width: 100%;
+        height: 80%;
+        background-color: #11ABB0;
+ 
+    }
+    .Downloadbtn {
+      margin-top: 10px;
+       
+       
+    
+    }
+}
+
+@media screen and (max-width:700px) {
+    .ImgIconDiv {
+        width: 22%;
+    }
+
+    .imgradiusdiv {
+        width: 90px;
+        height: 90px;
+
+    }
+
+    .MainSectionDiv img {
+        width: 90px;
+        height: 90px;
+        margin-top: 20px;
+
+    }
+
+     .rightIcon {
+        font-size: 1.5em;
+    
+    }
+    #about {
+        margin-top: 85px;
+        font-size: 1.2em;
+    
+    }
+    .P-Div #P_info {
+        font-size: 1.2rem;
+        width: 100%;
+        height: 80%;
+        background-color: #11ABB0;
+ 
+    }
+   
+}
+@media screen and (max-width:550px){
+    .maindiv {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .MainSectionDiv {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .ImgIconDiv {
+        width: 100%;
+        height: 20%;
+        display: block;
+        justify-content: center;
+        display: flex;
+       
+    }
+   
+    .imgradiusdiv {
+      width: 100%;
+
+    }
+    .MainSectionDiv img {
+        
+       background-color: aqua;
+    }
+    .rightIcon {
+        display: none;
+        /* font-size: 2em;
+        transform: rotate(90deg);
+        background-color: antiquewhite;
+        display: inline-block;
+        text-align: center; */
+      
+    }
+    .MyInfo {
+      
+        display: block;
+    
+    }
+    
+    #about {
+        font-size: 33px;
+        color: white;
+        text-align: center;
+        margin:0px;
+        padding: 10px 10px;
+    
+    }
+    .P-Div {
+      margin-top: 0px;
+      width: 100%;
+     
+     
+    }
+    
+    .P-Div #P_info {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        font-style: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+        padding: 0px;
+        padding: 10px;
+        color: white;
+    
+    
+    }
+}
+@media screen and (max-width:360px) {
+        
+    .P-Div #P_info {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        line-height: 1.3;
+    
+    
+    }
+}

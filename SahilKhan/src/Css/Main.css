@@ -182,7 +182,6 @@
         font-size: 1.2rem;
         width: 100%;
         height: 80%;
- 
     }
    
 }
@@ -190,6 +189,7 @@
     .maindiv {
         padding-top: 0px;
         padding-bottom: 0px;
+        padding-top: 40px;
     }
     
     .MainSectionDiv {
@@ -240,7 +240,8 @@
     .P-Div {
       margin-top: 0px;
       width: 100%;
-     
+      height: auto;
+      text-align: center;
      
     }
     

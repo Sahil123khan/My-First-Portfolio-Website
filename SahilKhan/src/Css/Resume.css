@@ -18,7 +18,8 @@
 .HeadindDiv-1{
     width: 20%;
     height: 149px;
-    padding-top: 30px; 
+    padding-top: 20px; 
+    margin-right: 20px;
 }
 .HeadindDiv-2{
     width: 70%;
@@ -26,6 +27,7 @@
     padding-top: 29px;
     
 }
+.someupdate{padding: 0px;}
 .HeadindDiv-1 h3{
     font: 18px / 24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
@@ -67,7 +69,6 @@
 }   
 .Skill-Div{
     width: 100%;
-    margin-top: 20px;
     min-height: auto;
     display: inline-flex;
 
@@ -94,3 +95,90 @@
  
 }
 
+@media screen and (max-width:1000px) {
+    
+    .HeadingDiv-Main{
+   display: block;
+   margin-bottom: 0px;
+
+    }
+    .HeadindDiv-1{
+      width: 100%;
+      height: 60px;
+      
+    }
+    .HeadindDiv-2{
+        width: 100%;
+        height: 90%;
+        padding-top: 0px;  
+        
+    }
+    .HeadindDiv-2 hr{
+        width: 100%;
+        border: solid gray;
+        border-width: 1px;
+     
+        margin-top: 20px;
+    }
+    .HeadindDiv-2 h4{
+       font-size: 22px;
+    }
+    .HeadindDiv-2 span{
+        font-size: 18px;
+     }
+     .HeadindDiv-2 p{
+        font-size: 19px;
+     }
+
+     .HeadindDiv-2 .html-p{
+        font-size: 22px;
+     }
+     .Skill-Div{
+      display: block;
+    }
+    .Exprience{
+        align-content: center;
+        justify-content: center;
+        display: flex;
+       width: auto;
+     
+    }
+    
+    .H5-Div h5{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:404px) {
+    .H5-Div h5{
+        font-size: 15px;
+       line-height: 25px;
+      
+    }
+    .H5-Div {
+        
+    }
+    .HeadindDiv-1 #Skills{
+        width: 70px;
+        
+     }
+}
+
+@media screen and (max-width:378px) {
+    .H5-Div h5{
+       
+        font-size: 15px;
+       line-height: 20px;
+       margin-left: 10px;
+       
+      
+    }
+    .H5-Div {
+        display: flex;
+        width: auto;
+
+    }
+  
+  
+     
+}

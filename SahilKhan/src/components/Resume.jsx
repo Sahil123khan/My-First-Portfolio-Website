@@ -5,6 +5,7 @@ const Resume = () => {
     <div id="Resume" className="ResumeMain">
       <div className="ResumeDataDiv">
 
+      
         <div className="HeadingDiv-Main">
           <div className="HeadindDiv-1">
             <h3>Education</h3>
@@ -16,13 +17,15 @@ const Resume = () => {
             <p>Received Bachelor of Commerce degree from Maharshi Dayanand Saraswati University,Ajmer.</p><hr />
           </div>
         </div>
+       
+       
 
         <div className="HeadingDiv-Main">
           <div className="HeadindDiv-1">
             <h3 className="certi-h3">certification</h3>
           </div>
 
-          <div className="HeadindDiv-2">
+          <div className="HeadindDiv-2 someupdate">
             <h4 >CSS Certification Test - Youtube Course</h4>
             <p className="html-p">HTML Certification Test - Youtube Course</p><hr />
           </div>
